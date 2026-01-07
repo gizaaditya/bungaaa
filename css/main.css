@@ -1318,4 +1318,21 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
+.message-box {
+    position: fixed;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+
+  #typing-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
